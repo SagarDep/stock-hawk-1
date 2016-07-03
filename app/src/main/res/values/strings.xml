@@ -43,6 +43,7 @@
     <string name="change">Change</string>
     <string name="action_about">About</string>
     <string name="cancel">Cancel</string>
+    <string name="this_stock_is_already_saved">This stock is already saved !</string>
 
     <string-array name="languages_arr">
         <item>English</item>

@@ -49,4 +49,5 @@
         <item>الجمعة</item>
         <item>يوم السبت</item>
     </string-array>
+    <string name="this_stock_is_already_saved">يتم حفظ هذه الأسهم بالفعل!</string>
 </resources>
