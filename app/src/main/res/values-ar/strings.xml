@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_change_units">وحدات التغيير</string>
+    <string name="action_refresh">اعادة تنشيط </string>
+    <string name="action_settings">إعدادات</string>
+    <string name="add_new_stock">إضافة الأسهم الجديدة</string>
+    <string name="bid_price">سعر</string>
+    <string name="change_in_percentage">التغيير في النسبة المئوية </string>
+    <string name="close">أغلق</string>
+    <string name="content_test">بحث عن الأوراق المالية رمز </string>
+    <string name="current_stock_listing">قائمة الأسهم الحالية </string>
+    <string name="date">تاريخ</string>
+    <string name="day">يوم </string>
+    <string name="error">خطأ</string>
+    <string name="graph_showing_stock_pricing">رسم بياني يوضح أسعار الأسهم </string>
+    <string name="high">عالي</string>
+    <string name="loading_please_wait">جاري التحميل الرجاءالانتظار. </string>
+    <string name="low">منخفض</string>
+    <string name="network_toast">اه اوه! هذا التطبيق يتطلب اتصال بالإنترنت </string>
+    <string name="sad_face">وجه حزين </string>
+    <string name="stock_name">اسم الأسهم </string>
+    <string name="stock_price">سعر السهم </string>
+    <string name="stock_price_week_history">قائمة الأسعار من الأسهم في هذا أو الأسبوع السابق . </string>
+    <string name="stock_prices">أسعار الأسهم </string>
+    <string name="stock_symbol">الأسهم رمز </string>
+    <string name="stocks_details_unavailable_error">الأسهم تفاصيل متوفر حاليا، مرر لأسفل إلى تحديث.</string>
+    <string name="stocks_details_unavailable_error_2">تفاصيل الأسهم غير متوفر حاليا ، انقر على أيقونة تحديث لتحديث . </string>
+    <string name="stocks_unavailable_error">الأسهم غير متوفرة حاليا ، انتقد إلى تحديث. </string>
+    <string name="stocks_unavailable_error_widget">الأسهم غير متوفر حاليا ، انقر لتحديث . </string>
+    <string name="symbol_search">رمز البحث </string>
+    <string name="action_about">حول</string>
+    <string name="action_change_language">غير اللغة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="change">تغيير</string>
+    <string name="change_language">غير اللغة </string>
+
+    <string-array name="languages_arr">
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+
+    <string-array name="days_arr">
+        <item></item>
+        <item>الأحد</item>
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>يوم السبت</item>
+    </string-array>
+</resources>

@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/current_stock_listing" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/add_new_stock"
+        android:src="@drawable/ic_add_white_24dp"
+        fab:fab_colorNormal="@color/material_blue_500"
+        fab:fab_colorPressed="@color/material_blue_600"
+        fab:fab_colorRipple="@color/ripple"
+        fab:fab_shadow="true"
+        fab:fab_type="normal"
+        fab:layout_anchor="recycler_view"
+        fab:layout_anchorGravity="bottom | end" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_err_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/sad_face"
+                android:src="@drawable/ic_face_grey_500_24dp" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_avg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/stocks_unavailable_error"
+                android:gravity="center"
+                android:text="@string/stocks_unavailable_error" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
